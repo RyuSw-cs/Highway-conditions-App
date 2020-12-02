@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_rest">휴게소</string>
+    <string name="title_traffic">교통 상황</string>
+    <string name="title_mypage">마이 페이지</string>
+</resources>
