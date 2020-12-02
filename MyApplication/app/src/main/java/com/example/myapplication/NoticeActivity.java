@@ -32,17 +32,22 @@ public class NoticeActivity extends AppCompatActivity {
 
     private void getData() {
         // 임의의 데이터입니다.
-        List<String> listTitle = Arrays.asList("[안내] 송희령 갈치", "[안내] 송희령 고등어", "[안내] 송꼬삼", "[안내] 송희령 대학원 입학", "[안내] ㅋㅋ", "[안내] ㅋㅋ", "[안내] ㅋㅋ", "[안내] 꾸꾸", "[안내] 꾸꾸");
+        List<String> listTitle = Arrays.asList(
+                "[안내] COVID19로부터 우리를 지키는 행동수칙",
+                "[안내] 끊김 오류 안내",
+                "[안내] 전국 17개소 다차로 하이패스 공사 실시",
+                "[안내] 주말 교통전망");
         List<String> listContent = Arrays.asList(
-                "12.01 20:45",
+                "12.03 20:45",
                 "12.01 20:35",
-                "12.01 20:01",
-                "12.01 19:36",
-                "12.01 19:26",
-                "12.01 19:16",
-                "12.01 19:08",
-                "12.01 19:04",
-                "12.01 19:00"
+                "11.29 20:01",
+                "11.23 19:36"
+        );
+        List<String> listMain = Arrays.asList(
+                "1. 흐르는 물에 비누로 꼼꼼히 손 씻기\n2. 기침 재채기할 때 옷소매로 입과 코 가리기 \n 씻지 않은 손으로 눈,코,입 만지지 않기",
+                "서버상의 문제로 인해서 휴게소 지도에서 끊김 현상이 발생할 수 있으니 이 점 양해해 주시기 바랍니다.",
+                "전국 17개소 다차로 하이패스 공사 실시\n공사기간: 2020, 12월 ~ 2021 2월\n공사내용 : 기존 하이패스 차로 폐쇄 후 다차로 하이패스 구축 공사",
+                "12월 5일 토요일 : -전국 440만대, 수도권에서 지방으로 40만대, 지방에서 수도권으로 41만대\n12월 6일 일요일 : -전국 400만대, 수도권에서 지방으로 33만대, 지방에서 수도권으로 40만대 "
         );
 
         for (int i = 0; i < listTitle.size(); i++) {
@@ -50,7 +55,7 @@ public class NoticeActivity extends AppCompatActivity {
             Data data = new Data();
             data.setTitle(listTitle.get(i));
             data.setContent(listContent.get(i));
-
+            data.setMaintext(listMain.get(i));
             // 각 값이 들어간 data를 adapter에 추가합니다.
             adapter.addItem(data);
         }

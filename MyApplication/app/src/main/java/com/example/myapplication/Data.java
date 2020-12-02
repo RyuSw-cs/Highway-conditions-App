@@ -4,6 +4,16 @@ public class Data {
 
     private String title;
     private String content;
+    private String maintext;
+
+
+    public String getMaintext() {
+        return maintext;
+    }
+
+    public void setMaintext(String maintext) {
+        this.maintext = maintext;
+    }
 
     public String getTitle() {
         return title;
