@@ -1,7 +1,9 @@
 
 package com.example.myapplication;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -68,6 +70,9 @@ public class MainActivity extends AppCompatActivity {
                         drawer.bringToFront();
                         drawerLayout.bringToFront();
                         break ;
+                    case R.id.button4 :
+                        Intent intent = new Intent(getApplicationContext(), NoticeActivity.class);
+                        startActivityForResult(intent,1001);
                     case R.id.button_push :
                         Log.d("푸시 텍스트", "onClick: ");
 

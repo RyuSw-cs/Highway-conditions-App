@@ -1,6 +1,7 @@
 package com.example.myapplication.ui.notifications;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,10 +16,12 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.myapplication.CenterActivity;
 import com.example.myapplication.MainActivity;
 import com.example.myapplication.NoticeActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.popupcall;
+import com.example.myapplication.webviewActivity;
 
 public class NotificationsFragment extends Fragment {
 
@@ -51,10 +54,12 @@ public class NotificationsFragment extends Fragment {
 
                         break ;
                     case R.id.button11 :
-
-                        break ;
+                        Intent intent3 = new Intent(getActivity(), CenterActivity.class);
+                        startActivityForResult(intent3, 1);
+                        break;
                     case R.id.button12 :
-
+                        Intent browse = new Intent(getActivity(), webviewActivity.class);
+                        startActivityForResult(browse,1001);
                         break ;
                     case 13 :
                         System.exit(0);
