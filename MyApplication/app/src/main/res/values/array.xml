@@ -8,6 +8,38 @@
         <item>이벤트</item>
         <item>기타</item>
     </string-array>
+
+    <string-array name="road">
+        <item>경부선</item>
+        <item>남해선</item>
+        <item>서해안선</item>
+        <item>울산선</item>
+        <item>익산포항선</item>
+        <item>호남선</item>
+        <item>순천완주선</item>
+        <item>당진영덕선</item>
+        <item>제2중부선</item>
+        <item>평택제천선</item>
+        <item>중부내륙선</item>
+        <item>영동선</item>
+        <item>서울양양선</item>
+        <item>수도권제1순환선</item>
+        <item>남해제1지선</item>
+        <item>남해제2지선</item>
+        <item>제2경인선</item>
+        <item>서천공주선</item>
+        <item>호남선의지선</item>
+        <item>고창담양선</item>
+        <item>대전남부순환선</item>
+        <item>중부내륙선의지선</item>
+        <item>중앙선의지선</item>
+        <item>부산외곽순환선</item>
+    </string-array>
+    <string-array name="updown">
+        <item>상행</item>
+        <item>하행</item>
+    </string-array>
+
     <string-array name="reply_entries">
         <item>Reply</item>
         <item>Reply to all</item>
