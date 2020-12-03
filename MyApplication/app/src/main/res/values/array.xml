@@ -10,7 +10,7 @@
     </string-array>
 
     <string-array name="road">
-        <item>경부선</item>
+        <item>영동선</item>
         <item>남해선</item>
         <item>서해안선</item>
         <item>울산선</item>
@@ -21,7 +21,7 @@
         <item>제2중부선</item>
         <item>평택제천선</item>
         <item>중부내륙선</item>
-        <item>영동선</item>
+        <item>경부선</item>
         <item>서울양양선</item>
         <item>수도권제1순환선</item>
         <item>남해제1지선</item>

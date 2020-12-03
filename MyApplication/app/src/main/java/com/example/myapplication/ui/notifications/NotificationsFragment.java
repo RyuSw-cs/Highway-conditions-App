@@ -17,11 +17,16 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.myapplication.CenterActivity;
+import com.example.myapplication.DataHighway;
 import com.example.myapplication.MainActivity;
 import com.example.myapplication.NoticeActivity;
 import com.example.myapplication.R;
+import com.example.myapplication.Road;
 import com.example.myapplication.popupcall;
 import com.example.myapplication.webviewActivity;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class NotificationsFragment extends Fragment {
 
@@ -82,4 +87,5 @@ public class NotificationsFragment extends Fragment {
         });
         return root;
     }
+
 }
