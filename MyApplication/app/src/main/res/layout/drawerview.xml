@@ -71,13 +71,13 @@
             android:src="@drawable/gear"></ImageView>
 
         <Button
-            android:id="@+id/button_theme"
+            android:id="@+id/button_location"
             android:layout_width="106dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="300dp"
-            android:text="테마 선택"
             android:fontFamily="@font/font"
+            android:text="위치 권한"
             android:textColor="#ffffff"
             app:strokeColor="#000000"
             app:strokeWidth="2dp"></Button>
@@ -101,8 +101,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="372dp"
-            android:text="앱 정보"
             android:fontFamily="@font/font"
+            android:text="앱 정보"
             android:textColor="#ffffff"
             app:strokeColor="#000000"
             app:strokeWidth="2dp"></Button>
@@ -112,25 +112,6 @@
             android:layout_height="1dp"
             android:layout_marginTop="430dp"
             android:background="#80ffffff"></LinearLayout>
-
-        <ImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="458dp"
-            android:src="@drawable/gear"></ImageView>
-
-        <Button
-            android:id="@+id/button_location"
-            android:layout_width="106dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
-            android:layout_marginTop="443dp"
-            android:text="위치"
-            android:fontFamily="@font/font"
-            android:textColor="#ffffff"
-            app:strokeColor="#000000"
-            app:strokeWidth="2dp"></Button>
 
 
     </RelativeLayout>

@@ -3,4 +3,13 @@
     <string name="title_rest">휴게소</string>
     <string name="title_traffic">교통 상황</string>
     <string name="title_mypage">마이 페이지</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_header">푸시 알림</string>
+    <string name="sync_title">푸시 알림 설정</string>
+    <string name="attachment_title">이메일 및 SMS</string>
+    <string name="attachment_summary_on">자동적으로 다운로드
+    </string>
+    <string name="attachment_summary_off">권한 부여 후 다운로드</string>
 </resources>
