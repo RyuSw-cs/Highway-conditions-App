@@ -26,6 +26,8 @@
             android:name=".popupcall"
             android:theme="@android:style/Theme.Dialog" />
         <activity
+            android:name=".RestInfo"/>
+        <activity
             android:name=".NoticeActivity"
             android:label="공지사항" />
         <activity

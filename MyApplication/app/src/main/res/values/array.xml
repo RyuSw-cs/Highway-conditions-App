@@ -14,26 +14,30 @@
         <item>남해선</item>
         <item>서해안선</item>
         <item>울산선</item>
-        <item>익산포항선</item>
+        <item>익산장수선</item>
         <item>호남선</item>
         <item>순천완주선</item>
-        <item>당진영덕선</item>
+        <item>당진대전선</item>
         <item>제2중부선</item>
         <item>평택제천선</item>
         <item>중부내륙선</item>
         <item>경부선</item>
         <item>서울양양선</item>
         <item>수도권제1순환선</item>
-        <item>남해제1지선</item>
-        <item>남해제2지선</item>
         <item>제2경인선</item>
         <item>서천공주선</item>
-        <item>호남선의지선</item>
         <item>고창담양선</item>
-        <item>대전남부순환선</item>
-        <item>중부내륙선의지선</item>
-        <item>중앙선의지선</item>
-        <item>부산외곽순환선</item>
+        <item>대전남부선</item>
+        <item>중부내륙선지선</item>
+        <item>중앙선지선</item>
+        <item>부산외곽선</item>
+        <item>무안광주선</item>
+        <item>광주대구선</item>
+        <item>통영대전선</item>
+        <item>호남지선</item>
+        <item>중앙선(삼락-대동)</item>
+        <item>동해선(부산-포항)</item>
+        <item>동해선(삼척-속초)</item>
     </string-array>
     <string-array name="updown">
         <item>상행</item>

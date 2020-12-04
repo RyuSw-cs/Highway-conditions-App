@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    android:id="@+id/drawerView"
     android:layout_width="280dp"
     android:layout_height="match_parent"
     android:layout_gravity="start"
-    android:id="@+id/drawerView"
-    android:background="#5559b4">
+    android:background="@android:color/holo_purple"
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#5356A5"
+        android:background="?attr/colorPrimaryVariant"
         android:orientation="horizontal">
 
         <TextView
@@ -51,9 +51,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="233dp"
-            android:text="Push 알림"
-            android:textColor="#ffffff"
             android:fontFamily="@font/font"
+            android:text="Push 알림"
+            android:textColor="#000000"
+            app:backgroundTint="@color/white"
             app:strokeColor="#000000"
             app:strokeWidth="2dp"></Button>
 
@@ -78,7 +79,8 @@
             android:layout_marginTop="300dp"
             android:fontFamily="@font/font"
             android:text="위치 권한"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
+            app:backgroundTint="@color/white"
             app:strokeColor="#000000"
             app:strokeWidth="2dp"></Button>
 
@@ -103,7 +105,8 @@
             android:layout_marginTop="372dp"
             android:fontFamily="@font/font"
             android:text="앱 정보"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
+            app:backgroundTint="@color/white"
             app:strokeColor="#000000"
             app:strokeWidth="2dp"></Button>
 

@@ -28,6 +28,7 @@ import com.example.myapplication.DataRestArea;
 import com.example.myapplication.GetDataRestArea;
 import com.example.myapplication.LoadDataRestArea;
 import com.example.myapplication.R;
+import com.example.myapplication.RestInfo;
 import com.example.myapplication.RetrofitOnSuccess;
 import com.example.myapplication.Retrofit_RestArea;
 import com.skt.Tmap.TMapMarkerItem;
@@ -87,7 +88,6 @@ public class HomeFragment extends Fragment implements RetrofitOnSuccess{
         mContext = context;
     }
     private final LocationListener mLocationListener = new LocationListener() {
-
         @Override
         public void onLocationChanged(@NonNull Location location) {
             if (location != null) {
@@ -158,7 +158,9 @@ public class HomeFragment extends Fragment implements RetrofitOnSuccess{
             @Override
             public void onCalloutRightButton(TMapMarkerItem tMapMarkerItem) {
                 //인텐트 주고 휴게소 레이아웃을 가져오자!
-
+                Intent intent = new Intent(mContext, RestInfo.class);
+                intent.putExtra("name",tMapMarkerItem.getCalloutTitle());
+                startActivity(intent);
             }
         });
     }
